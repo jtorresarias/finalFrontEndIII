@@ -24,7 +24,6 @@ const Card = ({ user }) => {
 
   return (
     <div className="card">
-      {/* En cada card deberan mostrar en name - username y el id */}
       <Link to={`/detail/${user.id}`}>
         <img src={DOC} style={{ width: 150 }} alt="imagen doctor" />
         <h2>{user.name}</h2>
